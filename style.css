@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
 * {
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;   
+}
+
+div {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+.logo {
+    width: 8%;
+    height: auto;
+    margin-left: 8.4%;
+    margin-top: 21px;
+}
+li {
+    float: left;
+    margin-left: 7.6%;
+    margin-top: 97px;
+}
+li:first-child{
+    list-style-image: url(./images/globe.png);
+}
+li:nth-child(2){
+    list-style-image: url(./images/clock.png);
+}
+li:last-child {
+    list-style-image: url(./images/calendar.png);
 }
 /* .image {
     position: absolute;
