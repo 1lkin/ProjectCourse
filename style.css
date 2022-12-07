@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
-    display: flex;
     flex-wrap: wrap;
 }
 * {
     font-family: 'Roboto', sans-serif;   
 }
-
-div {
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
     border: 1px solid black;
-    width: 100%;
-    height: auto;
 }
 .logo {
-    width: 8%;
+    width: 112px;
     height: auto;
-    margin-left: 8.4%;
+    margin-left: 121px;
     margin-top: 21px;
+}
+ul {
+    margin-left: 121px;
 }
 li {
     float: left;
-    margin-left: 7.6%;
+    margin-right: 80px;
     margin-top: 97px;
+    font-size: 20px;
 }
 li:first-child{
     list-style-image: url(./images/globe.png);
@@ -32,36 +34,64 @@ li:nth-child(2){
 li:last-child {
     list-style-image: url(./images/calendar.png);
 }
-/* .image {
-    position: absolute;
-    width: 112px;
-    height: 66px;
-    left: 121px;
-    top: 21px;
-}
-
-ul {
-    position: absolute;
-    width: 800px;
-    height: 32px;
-    left: 151px;
-    top: 187px;
-
-    font-family: 'Roboto';
+h1 {
+    margin-left: 132px;
     font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+.left, .right, .text, .cameramen-on-feet {
+    display: inline-block;
+}
+.kak p {
+    margin-left: 121px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 115%;
-    list-style-type: square;
+    line-height: 150%;
 }
-li {
-    padding: 16px;
-    display: inline;
+.right {
+    width: 304px;
+    height: 356px;
+    margin-left: 890px;
+    margin-top: -330px;
 }
-.l1 {
-    list-style-image: url(images/globe.png);
+.quotation {
+    margin: 0 auto;
+    background-color: #1E4681;
+    border-radius: 5px;
+    width: 483.63px;
+    height: 200px;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
 }
-.kak {
-    display: flex;
-    justify-content: space-around;
-} */
+.quotation :first-child {
+    margin-left: 26px;
+    padding-top: 20px;
+}
+.quotation p:nth-child(2) {
+    font-size: 20px;
+    text-align: end;
+    margin-right: 18px;
+    margin-top: -20px;
+}
+h2 {
+    margin-top: 175px;
+    margin-left: 121px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.text {
+    width: 662px;
+    height: 374px;
+    margin-left: 121px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+.cameraman-on-feet {
+    padding-left: 120px;
+}
