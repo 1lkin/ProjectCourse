@@ -58,7 +58,6 @@ h1 {
 }
 .right {
     width: 304px;
-    height: 356px;
     margin-left: 890px;
     margin-top: -330px;
 }
@@ -92,7 +91,6 @@ h2 {
 }
 .text {
     width: 662px;
-    height: 374px;
     margin-left: 121px;
     font-weight: 400;
     font-size: 24px;
@@ -166,7 +164,6 @@ h2 {
 }
 
 .cto div {
-    height: 386px;
     width: 662px;
     margin-left: 100px;
     font-size: 24px;
@@ -300,4 +297,54 @@ h2 {
     font-weight: 400;
     font-size: 80px;
     margin-top: 0px;
+}
+.for-whom {
+    display: flex;
+}
+.for-whom h3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+.for-whom p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer {
+    justify-self: center;
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    margin-left: -10px;
+}
+.footer-background {
+    max-width: 1036px;
+    margin: 0 auto;
+    /* margin-top: -40px; */
+    color: white;
+    border: red 1px solid;
+}
+.footers-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    width: 200px;  
+    font-size: 25px;  
+    font-weight: 400;
+    margin-right: 30px;
+    width: 300px;
+}
+.contact div {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    align-content: flex-end;
+    border: red 1px solid;
+}
+.sinxro {
+    font-size: 18px;
 }
