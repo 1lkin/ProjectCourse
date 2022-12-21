@@ -587,13 +587,15 @@ h2 {
     border-radius: 17px;    
   }
   .cards {
+    /* border: 2px dotted red; */
+    margin: 0 auto;
     /* border: red 1px solid; */
     margin-top: 74px;
-    max-width: 1279px;
+    max-width: 736px;
     display: flex;
     /* height: 1100px; */
     flex-wrap: wrap;
-    gap: 68px;
+    gap: 21px;
   }
   .card h3 {
     font-size: 17px;
@@ -611,65 +613,67 @@ h2 {
     margin-bottom: -10px;
   }
   .kurs-background {
-    max-width: 1279px;
+    max-width: 834px;
     margin: 0 auto;
   }
   .kurs {
+
+    justify-self: center;
+    background-color: #EFEFEF;
+    width: 100vw;
+    position: relative;
+    
     margin-top: 53px;
     /* height: 780px; */
     left: calc(-50vw + 50%);
   }
   .kurs h2 {
-    border: 2px dotted red;
     max-width: 600px;
     margin-left: 70px;
-  /* padding-top: 100px;     */
-  margin-top: 53px;
-}
-.feedback {
-  max-width: 791px;
-  /* height: 451px; */
-  margin-top: 68px;
-  margin-left: 126px;    
-  margin-bottom: 111px;
-  background: #FFFFFF;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-}
-.ekaterinas-feedback {
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;    
-  margin: 40px 45px;
-  /* padding-top: 20px; */
-}
-/* .signature {
-  margin-top: -20px;
-} */
-.feedback-owner {
-  margin-left: 26px;
-  margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-}
-.feedback-owner h3{
-  font-family: 'Roboto Slab', serif;
-  font-size: 55px;
-  margin-left: 26px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 101.38%;
-}
-.fb {
-  margin-left: 26px;
-  margin-top: 26px;
-}
-
-
-
-.nachalo-background {
-  max-width: 1280px;
+    /* padding-top: 100px;     */
+    margin-top: 53px;
+  }
+  .feedback {
+    max-width: 458px;
+    /* height: 451px; */
+    margin-top: 39px;
+    margin-left: 73px;    
+    margin-bottom: 64px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  .feedback img {
+    width: 110px;
+  }
+  .ekaterinas-feedback {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 23px 26px 0;
+    /* padding-top: 20px; */
+  }
+  /* .signature {
+    margin-top: -20px;
+  } */
+  .feedback-owner {
+    margin: 16px;
+    /* display: flex;
+    align-items: center; */
+  }
+  .feedback-owner h3{
+    font-size: 55px;
+    font-size: 17px;
+  }
+  .feedback img.fb {
+    width: 18px;
+    /* margin-left: 26px; */
+    margin-top: 15px;
+  }
+  
+  
+  
+  .nachalo-background {
+  border: 2px dotted red;
+  max-width: 834px;
   margin: 0 auto;
   /* margin-top: -40px; */
 }
